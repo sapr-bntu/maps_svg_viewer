@@ -20,7 +20,6 @@ HEADERS  += map.h \
 FORMS    += map.ui
 
 RESOURCES += \
-    piu.qrc \
     karta.qrc
 
 OTHER_FILES += \
