@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>screen.png</file>
+        <file>1.GIF</file>
+        <file>splash1.PNG</file>
+        <file>map.svg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,130 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_testtest.cpp'
+**
+** Created: Fri 15. Jun 10:51:21 2012
+**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.0)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_testtest.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.0. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_TestTest[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      17,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      10,    9,    9,    9, 0x08,
+      25,    9,    9,    9, 0x08,
+      43,    9,    9,    9, 0x08,
+      55,    9,    9,    9, 0x08,
+      67,    9,    9,    9, 0x08,
+      79,    9,    9,    9, 0x08,
+      91,    9,    9,    9, 0x08,
+     103,    9,    9,    9, 0x08,
+     115,    9,    9,    9, 0x08,
+     127,    9,    9,    9, 0x08,
+     139,    9,    9,    9, 0x08,
+     151,    9,    9,    9, 0x08,
+     164,    9,    9,    9, 0x08,
+     177,    9,    9,    9, 0x08,
+     190,    9,    9,    9, 0x08,
+     203,    9,    9,    9, 0x08,
+     216,    9,    9,    9, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_TestTest[] = {
+    "TestTest\0\0initTestCase()\0cleanupTestCase()\0"
+    "testCase1()\0testCase2()\0testCase3()\0"
+    "testCase4()\0testCase5()\0testCase6()\0"
+    "testCase7()\0testCase8()\0testCase9()\0"
+    "testCase10()\0testCase11()\0testCase12()\0"
+    "testCase13()\0testCase14()\0testCase15()\0"
+};
+
+void TestTest::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        TestTest *_t = static_cast<TestTest *>(_o);
+        switch (_id) {
+        case 0: _t->initTestCase(); break;
+        case 1: _t->cleanupTestCase(); break;
+        case 2: _t->testCase1(); break;
+        case 3: _t->testCase2(); break;
+        case 4: _t->testCase3(); break;
+        case 5: _t->testCase4(); break;
+        case 6: _t->testCase5(); break;
+        case 7: _t->testCase6(); break;
+        case 8: _t->testCase7(); break;
+        case 9: _t->testCase8(); break;
+        case 10: _t->testCase9(); break;
+        case 11: _t->testCase10(); break;
+        case 12: _t->testCase11(); break;
+        case 13: _t->testCase12(); break;
+        case 14: _t->testCase13(); break;
+        case 15: _t->testCase14(); break;
+        case 16: _t->testCase15(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData TestTest::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject TestTest::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_TestTest,
+      qt_meta_data_TestTest, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &TestTest::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *TestTest::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *TestTest::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_TestTest))
+        return static_cast<void*>(const_cast< TestTest*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int TestTest::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 17)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 17;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE
